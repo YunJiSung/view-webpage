@@ -3,7 +3,7 @@
         <span>{{ title }}</span>
         <h2 class="mb70">스크립트를 익히는 방법</h2>
         <div class="text__inner container">
-            <div v-for="(text, index) in textInfo" :key="index" :class="'text t' + index">
+            <div :class="'text t' + key" v-for="(text, key) in textInfo" :key="key">
                 <h3 class="text__title">{{ text.title }}</h3>
                 <p class="text__desc">{{ text.desc }}</p>
                 <a class="text__btn" :href="text.src">더보기</a>
