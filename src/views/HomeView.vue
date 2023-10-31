@@ -11,14 +11,14 @@ import Footer from "@/components/Footer.vue"
 
 
 <template>
-  <Header />
+  <Header element="nexon" />
   <main>
-    <Slider />
-    <Image />
-    <ImageText />
-    <Card />
-    <Banner />
-    <Text />
+    <Slider element="nexon" />
+    <Image element="section nexon" title="포트폴리오가 실력이다" />
+    <ImageText element="section nexon gray" title="이미지 텍스트 유형" />
+    <Card element="section nexon" title="웹스토리보이 강의" />
+    <Banner element="nexon" title="배너 영역" />
+    <Text element="section nexon" title="텍스트 유형01" />
   </main>
-  <Footer />
+  <Footer element="nexon section gray" />
 </template>
